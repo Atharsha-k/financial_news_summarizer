@@ -8,7 +8,6 @@ nltk.download('punkt')
 nltk.download('punkt_tab')
 nltk.download('stopwords')
 
-# Make sure required data is available
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
